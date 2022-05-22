@@ -9,7 +9,11 @@
         android:id="@+id/blankFragment"
         android:name="wolf.shin.navigationfragment.BlankFragment"
         android:label="fragment_blank"
-        tools:layout="@layout/fragment_blank" />
+        tools:layout="@layout/fragment_blank">
+        <action
+            android:id="@+id/action_1to2"
+            app:destination="@id/blankFragment02" />
+    </fragment>
 
     <fragment
         android:id="@+id/blankFragment02"
