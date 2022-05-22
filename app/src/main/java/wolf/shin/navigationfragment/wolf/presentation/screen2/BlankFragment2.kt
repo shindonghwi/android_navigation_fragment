@@ -1,4 +1,4 @@
-package wolf.shin.navigationfragment.wolf.presentation
+package wolf.shin.navigationfragment.wolf.presentation.screen2
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
