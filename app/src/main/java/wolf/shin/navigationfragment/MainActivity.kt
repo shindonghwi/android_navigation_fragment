@@ -23,8 +23,6 @@ class MainActivity : AppCompatActivity() {
         ) as NavHostFragment
         navController = navHostFragment.navController
 
-//        _binding.bottomNavigation.setupWithNavController(navController)
-//
         appBarConfiguration = AppBarConfiguration(
             navGraph = navController.graph
         )
