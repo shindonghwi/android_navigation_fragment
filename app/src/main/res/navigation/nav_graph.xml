@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/blankFragment">
+    app:startDestination="@+id/firstNavGraph">
 
-    <fragment
-        android:id="@+id/blankFragment"
-        android:name="wolf.shin.navigationfragment.wolf.presentation.screen1.BlankFragment"
-        android:label="fragment_blank"
-        tools:layout="@layout/fragment_blank">
-        <action
-            android:id="@+id/action_1to2"
-            app:destination="@id/blankFragment02" />
-    </fragment>
-
-    <fragment
-        android:id="@+id/blankFragment02"
-        android:name="wolf.shin.navigationfragment.wolf.presentation.screen2.BlankFragment2"
-        android:label="fragment_blank2"
-        tools:layout="@layout/fragment_blank2" />
+    <include app:graph="@navigation/nav_graph_first" />
+    <include app:graph="@navigation/nav_graph_second" />
+    <include app:graph="@navigation/nav_graph_third" />
 
 </navigation>
