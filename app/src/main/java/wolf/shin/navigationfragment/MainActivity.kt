@@ -32,7 +32,6 @@ class MainActivity : AppCompatActivity() {
             navController.let { navController ->
                 NavigationUI.setupWithNavController(this, navController)
                 setOnItemSelectedListener { item ->
-                    navController.navigate(R.id.secondScreen)
                     NavigationUI.onNavDestinationSelected(item, navController)
                     true
                 }
