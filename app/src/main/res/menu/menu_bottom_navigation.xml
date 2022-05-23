@@ -2,14 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@id/firstNavGraph"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@android:drawable/ic_menu_call"
         android:title="first" />
     <item
         android:id="@id/secondNavGraph"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@android:drawable/ic_menu_camera"
         android:title="second" />
     <item
         android:id="@id/thirdNavGraph"
-        android:icon="@drawable/ic_launcher_foreground"
+        android:icon="@android:drawable/ic_menu_info_details"
         android:title="third" />
 </menu>
