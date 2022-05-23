@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/firstScreen"
+        android:id="@id/firstNavGraph"
         android:icon="@drawable/ic_launcher_foreground"
         android:title="first" />
     <item
-        android:id="@+id/secondScreen"
+        android:id="@id/secondNavGraph"
         android:icon="@drawable/ic_launcher_foreground"
         android:title="second" />
     <item
-        android:id="@+id/thirdScreen"
+        android:id="@id/thirdNavGraph"
         android:icon="@drawable/ic_launcher_foreground"
         android:title="third" />
 </menu>
