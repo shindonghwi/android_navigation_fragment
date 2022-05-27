@@ -5,10 +5,10 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import wolf.shin.navigationfragment.databinding.FragmentFirstDetailBinding
 import wolf.shin.navigationfragment.wolf.base.BaseFragment
-import wolf.shin.navigationfragment.wolf.presentation.screen2.detail.SecondDetailViewModel
+import wolf.shin.navigationfragment.wolf.presentation.screen3.detail.ThirdDetailViewModel
 
-class FirstDetailFragment : BaseFragment<FragmentFirstDetailBinding, SecondDetailViewModel>() {
-    override val viewModel: SecondDetailViewModel get() = ViewModelProvider(this)[SecondDetailViewModel::class.java]
+class FirstDetailFragment : BaseFragment<FragmentFirstDetailBinding, ThirdDetailViewModel>() {
+    override val viewModel: ThirdDetailViewModel get() = ViewModelProvider(this)[ThirdDetailViewModel::class.java]
 
     override fun getFragmentBinding(inflater: LayoutInflater, container: ViewGroup?): FragmentFirstDetailBinding {
         return FragmentFirstDetailBinding.inflate(layoutInflater)
