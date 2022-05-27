@@ -14,10 +14,4 @@ class FirstFragment : BaseFragment<FragmentFirstBinding, FirstViewModel>() {
     }
 
     override fun initView() {}
-
-    override fun initData() {}
-
-    override fun initListener() {}
-
-    override fun initObserver() {}
 }

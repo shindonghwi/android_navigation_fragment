@@ -14,10 +14,4 @@ class SecondFragment : BaseFragment<FragmentSecondBinding, SecondViewModel>() {
     }
 
     override fun initView() {}
-
-    override fun initData() {}
-
-    override fun initListener() {}
-
-    override fun initObserver() {}
 }

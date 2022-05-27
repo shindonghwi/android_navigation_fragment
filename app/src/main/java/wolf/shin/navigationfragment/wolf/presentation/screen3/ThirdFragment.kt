@@ -15,10 +15,4 @@ class ThirdFragment : BaseFragment<FragmentThirdBinding, ThirdViewModel>() {
     }
 
     override fun initView() {}
-
-    override fun initData() {}
-
-    override fun initListener() {}
-
-    override fun initObserver() {}
 }

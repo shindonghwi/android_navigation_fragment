@@ -30,15 +30,9 @@ abstract class BaseFragment<B : ViewBinding, VM : ViewModel?> : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initView()
-        initListener()
-        initObserver()
-        initData()
     }
 
     abstract fun initView()
-    abstract fun initData()
-    abstract fun initListener()
-    abstract fun initObserver()
 
     override fun onDestroyView() {
         super.onDestroyView()
