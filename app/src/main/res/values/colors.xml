@@ -7,4 +7,5 @@
     <color name="blue700">#0959FF</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="gray300">#FFDEE2E6</color>
 </resources>
