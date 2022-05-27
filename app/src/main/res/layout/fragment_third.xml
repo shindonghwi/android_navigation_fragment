@@ -4,9 +4,9 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="3333333333333333" />
+        android:gravity="center"
+        android:text="third" />
 
 </FrameLayout>

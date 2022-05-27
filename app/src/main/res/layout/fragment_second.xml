@@ -4,9 +4,9 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="22222222222222222" />
+        android:gravity="center"
+        android:text="second" />
 
 </FrameLayout>
