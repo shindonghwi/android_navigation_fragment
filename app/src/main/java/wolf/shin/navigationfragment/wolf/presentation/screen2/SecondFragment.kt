@@ -3,6 +3,7 @@ package wolf.shin.navigationfragment.wolf.presentation.screen2
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import wolf.shin.navigationfragment.databinding.FragmentSecondBinding
 import wolf.shin.navigationfragment.wolf.base.BaseFragment
 
@@ -13,5 +14,9 @@ class SecondFragment : BaseFragment<FragmentSecondBinding, SecondViewModel>() {
         return FragmentSecondBinding.inflate(layoutInflater)
     }
 
-    override fun initView() {}
+    override fun initView() {
+        binding.goToDetailButton.setOnClickListener {
+            findNavController().navigate(directions = SecondFragmentDirections.goToSecondDetail())
+        }
+    }
 }
