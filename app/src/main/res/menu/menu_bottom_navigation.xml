@@ -3,13 +3,13 @@
     <item
         android:id="@id/firstNavGraph"
         android:icon="@android:drawable/ic_menu_call"
-        android:title="first" />
+        android:title="@string/first_screen" />
     <item
         android:id="@id/secondNavGraph"
         android:icon="@android:drawable/ic_menu_camera"
-        android:title="second" />
+        android:title="@string/second_screen" />
     <item
         android:id="@id/thirdNavGraph"
         android:icon="@android:drawable/ic_menu_info_details"
-        android:title="third" />
+        android:title="@string/third_screen" />
 </menu>
