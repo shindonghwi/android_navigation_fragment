@@ -9,6 +9,18 @@
         android:id="@+id/secondScreen"
         android:name="wolf.shin.navigationfragment.wolf.presentation.screen2.SecondFragment"
         android:label="second"
-        tools:layout="@layout/fragment_second" />
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/go_to_second_detail"
+            app:destination="@id/secondDetailScreen" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/secondDetailScreen"
+        android:name="wolf.shin.navigationfragment.wolf.presentation.screen2.detail.SecondDetailFragment"
+        android:label="secondDetail"
+        tools:layout="@layout/fragment_second_detail" />
 
 </navigation>

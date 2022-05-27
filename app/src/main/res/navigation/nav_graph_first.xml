@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/firstNavGraph"
@@ -10,6 +9,16 @@
         android:id="@+id/firstScreen"
         android:name="wolf.shin.navigationfragment.wolf.presentation.screen1.FirstFragment"
         android:label="first"
-        tools:layout="@layout/fragment_first"/>
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/go_to_first_detail"
+            app:destination="@id/firstDetailScreen" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/firstDetailScreen"
+        android:name="wolf.shin.navigationfragment.wolf.presentation.screen1.detail.FirstDetailFragment"
+        android:label="firstDetail"
+        tools:layout="@layout/fragment_first_detail"/>
 
 </navigation>

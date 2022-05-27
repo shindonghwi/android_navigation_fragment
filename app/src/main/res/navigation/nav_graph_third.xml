@@ -9,6 +9,18 @@
         android:id="@+id/thirdScreen"
         android:name="wolf.shin.navigationfragment.wolf.presentation.screen3.ThirdFragment"
         android:label="third"
-        tools:layout="@layout/fragment_third"/>
+        tools:layout="@layout/fragment_third">
+
+        <action
+            android:id="@+id/go_to_third_detail"
+            app:destination="@id/thirdDetailScreen" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/thirdDetailScreen"
+        android:name="wolf.shin.navigationfragment.wolf.presentation.screen3.detail.ThirdDetailFragment"
+        android:label="thirdDetail"
+        tools:layout="@layout/fragment_third_detail" />
 
 </navigation>
