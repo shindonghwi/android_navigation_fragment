@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">NavigationFragment</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="hello_blank_fragment2">Hello blank fragment2</string>
+    <string name="first_screen">First Screen</string>
+    <string name="first_detail_screen">First Detail Screen</string>
+    <string name="second_screen">Second Screen</string>
+    <string name="second_detail_screen">Second Detail Screen</string>
+    <string name="third_screen">Third Screen</string>
+    <string name="third_detail_screen">Third Detail Screen</string>
 </resources>
